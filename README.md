@@ -13,8 +13,11 @@ Suppose you want to find out the output of some code snippet.
 ```
 cout<<"i""am""good"<<endl;
 ```
-Strangely, the output is iamgood.
-
+Strangely, the output is 
+```
+iamgood
+```
+.
 There are many such idiosyncrasies of the c++ language. But it annoying to type out the main function and the preprocessor directives etc and then compile the file and execute it when all I really wanted to do was to find the output of a small code snippet.
 
 In python all you have to do is type
