@@ -1,6 +1,8 @@
 # cppcli
 Test c++ code snippets in the terminal.
-![ccpcli](CCPCLI.png)
+
+
+![ccpcli](CPPCLI.png)
 
 
 
