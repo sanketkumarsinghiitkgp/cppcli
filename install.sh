@@ -5,7 +5,11 @@ bottomtext=~/cppcli/.cppcli_bottomtext.txt
 runcontrol=~/.bashrc
 commands=commands.sh
 
-mkdir $cppclipath
+if [ -d "$cppclipath" ]; then
+    echo "$cppclipath exists"
+else
+	mkdir $cppclipath
+fi
 touch $toptext
 touch $bottomtext
 echo -n > $toptext
@@ -22,4 +26,4 @@ echo "Enter 'cppcli' to start typing your c++ code snippet."
 echo "You cannot create functions or create new classes etc in the cppcli mode."
 echo "Enter 'cppcli_full' if you want to type out a whole c++ program."
 
-source $runcontrol
+. $runcontrol
