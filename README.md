@@ -18,13 +18,13 @@ Strangely, the output is
 iamgood
 ```
 .
-There are many such idiosyncrasies of the c++ language. But it annoying to type out the main function and the preprocessor directives etc and then compile the file and execute it when all I really wanted to do was to find the output of a small code snippet.
+There are many such idiosyncrasies of the c++ language. But it is annoying to type out the main function and the preprocessor directives etc and then compile the file and execute it when all you want to do is to find the output of a small code snippet.
 
 In python all you have to do is type
 ```
 python
 ```
-and then type the lines of code that interests you.
+and then type the lines of code that interest you.
 So, I created something that does the same for c++.
 
 
