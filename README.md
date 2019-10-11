@@ -1,5 +1,5 @@
 # cppcli
-Test c++ code snippets in the terminal.
+Test c++ code snippets in the terminal like Python shell.
 
 
 ![ccpcli](CPPCLI.png)
